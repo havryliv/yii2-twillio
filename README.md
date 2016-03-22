@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist bryglen/yii2-twillio "*"
+php composer.phar require --prefer-dist havryliv/yii2-twillio "*"
 ```
 
 or add
 
 ```
-"bryglen/yii2-twillio": "*"
+"havryliv/yii2-twillio": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -30,7 +30,7 @@ Once the extension is installed, you should configure it in the application conf
 ```php
 'components' => [
     'twillio' => [
-        'class' => 'bryglen\yii2-twillio\Twillio',
+        'class' => 'havryliv\twillio\Twillio',
         'sid' => 'your_sid',
         'token' => 'your_token',
     ]

@@ -1,5 +1,5 @@
 {
-    "name": "grzegorzkurtyka/yii2-twillio",
+    "name": "havryliv/yii2-twillio",
     "description": "yii 2 twillio integration",
     "type": "yii2-extension",
     "keywords": ["yii2"," extension","twillio"," php"],
@@ -12,6 +12,10 @@
         {
             "name": "Grzegorz Kurtyka",
             "email": "grzegorz.kurtyka@gmail.com"
+        },
+        {
+            "name": "Yaroslav Havryliv",
+            "email": "yhavryliv@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -27,7 +31,7 @@
     },
     "autoload": {
         "psr-4": {
-            "bryglen\\twillio\\": ""
+            "havryliv\\twillio\\": ""
         }
     }
 }

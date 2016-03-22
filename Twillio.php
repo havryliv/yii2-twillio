@@ -3,7 +3,7 @@
  * @author Bryan Tan <bryantan16@gmail.com>
  */
 
-namespace bryglen\twillio;
+namespace havryliv\twillio;
 
 use yii\base\Component;
 use yii\base\InvalidConfigException;
