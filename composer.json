@@ -27,7 +27,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "grzegorzkurtyka/twilio-php-beta": "*"
+        "twilio/sdk": "*"
     },
     "autoload": {
         "psr-4": {
